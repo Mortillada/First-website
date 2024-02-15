@@ -1,0 +1,457 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #00ad6a;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Text */
+.text-xl {
+  font-size: 1.9rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-md {
+  font-size: 1.1rem;
+}
+
+.text-black {
+  color: #080c16;
+}
+
+/* Navbar section */
+
+.main-header {
+  background: #eafaf1;
+  padding: 40px;
+}
+
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 10%;
+}
+
+.main-header .container .logo {
+  margin-left: 10%;
+}
+
+.main-header .container .main-menu {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.main-header .container .main-menu > ul {
+  list-style: none;
+}
+
+.main-header .container .main-menu .btn {
+  border: 2px solid #00ad6a;
+  padding: 5px 15px;
+}
+
+.main-header .container .main-menu .btn:hover {
+  box-shadow: -5px 5px #00ad6a;
+  color: #00ad6a;
+}
+
+.main-header .container .main-menu ul {
+  display: flex;
+}
+
+.main-header .container .main-menu ul li {
+  padding: 10px 20px;
+  display: block;
+}
+
+.main-header .container .main-menu ul li:nth-child(5):hover {
+  transform: translate(6%, -6%);
+}
+
+.main-header .container .main-menu ul li a:hover {
+  color: #080c16;
+}
+
+/* Content Section */
+
+.main-content {
+  background: #eafaf1;
+  padding: 40px;
+}
+
+.main-content .container {
+  text-align: center;
+}
+
+.main-content .container .main-title {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.main-content .container .main-title > span {
+  display: block;
+  line-height: 0.7;
+  margin-bottom: 40px;
+}
+
+.main-content .container .main-subtitle {
+  font-size: 1.3rem;
+}
+
+/* Pricing section */
+.main-pricing {
+  background: #eafaf1;
+  padding: 40px;
+}
+
+.main-pricing .container .price-benefits {
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 250px;
+}
+
+.main-pricing .container .price-benefits .card-header-first {
+  margin-right: 100px;
+  width: 25%;
+}
+
+.main-pricing .container .price-benefits .card-header-first > h2 {
+  color: #00ad6a;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.main-pricing .container .price-benefits .card-header-first ul > li {
+  font-size: 1.2rem;
+  color: #595b5e;
+}
+
+.main-pricing .container .price-benefits .card-header-first .fa-circle {
+  font-size: 0.4rem;
+  padding-right: 15px;
+}
+
+.main-pricing .container .price-benefits .card-header-first > p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.main-pricing .container .price-benefits .card-header-first .get-link {
+  color: black;
+  text-decoration: underline;
+}
+
+/* first card */
+.main-pricing .container .price-benefits .card-header {
+  width: 30%;
+}
+.main-pricing .container .price-benefits .card-header .reco {
+  background: #00ad6a;
+  color: #fcfcfc;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.main-pricing .container .price-benefits .card-header .card-body {
+  background: #fcfcfc;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  border: 2px solid #00ad6a;
+}
+
+.main-pricing
+  .container
+  .price-benefits
+  .card-header
+  .card-body
+  .card-main-title {
+  color: #00ad6a;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.main-pricing
+  .container
+  .price-benefits
+  .card-header
+  .card-body
+  .card-main-title
+  > h2 {
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 100px;
+}
+
+.main-pricing .container .price-benefits .card-header .card-body .card-desc {
+  text-align: center;
+  margin-top: 15px;
+  color: #9b9da2;
+  font-size: 2rem;
+}
+
+.main-pricing .container .price-benefits .card-header .card-body .sign-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-pricing
+  .container
+  .price-benefits
+  .card-header
+  .card-body
+  .sign-btn
+  .sign {
+  color: black;
+  font-size: 1.5rem;
+  background: #1fe374;
+  border: 0;
+  font-weight: 600;
+  padding: 15px 30px;
+  margin-bottom: 40px;
+}
+
+.main-pricing .container .price-benefits .card-header .card-body .card-benefit {
+  text-align: center;
+}
+
+.main-pricing
+  .container
+  .price-benefits
+  .card-header
+  .card-body
+  .card-benefit
+  p {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.main-pricing .container .price-benefits .card-header .card-body .fa-check {
+  color: #00ad6a;
+  padding-right: 5px;
+}
+
+.main-pricing .container .price-benefits .card-header .card-body ul li {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #595b5e;
+}
+
+/* second card */
+
+.main-pricing .container .price-benefits .card-header .card-body-two {
+  background: #fcfcfc;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  width: 110%;
+  border: 1px solid #d6dae5;
+}
+
+.main-pricing .container .price-benefits .card-header .upper-title {
+  background: rgb(229 231 235);
+  text-align: center;
+  padding: 30px 40px;
+  width: 110%;
+  border: 1px solid #d6dae5;
+}
+
+.main-pricing .container .price-benefits .card-header .upper-title h3 {
+  color: #424346;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+.card-body-two .card-main-title,
+.card-desc,
+.sign-btn-premium,
+.card-benefit {
+  text-align: center;
+}
+
+.card-body-two .card-main-title > h2 {
+  color: #00ad6a;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin: 40px 0 0 0;
+  font-weight: 500;
+}
+
+.card-body-two .card-desc > p {
+  color: #9b9da2;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.card-body-two .sign-btn-premium .sign {
+  color: black;
+  font-size: 1.5rem;
+  background: #1fe374;
+  border: 0;
+  font-weight: 600;
+  padding: 15px 30px;
+  margin-bottom: 40px;
+}
+
+.card-body-two .card-benefit p {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-body-two ul li i {
+  color: #00ad6a;
+  padding-right: 6px;
+}
+
+.card-body-two ul li {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #595b5e;
+}
+
+/* subvert section */
+.subvert {
+  background: #eafaf1;
+  padding: 40px;
+}
+
+.subvert .container {
+  text-align: center;
+}
+
+.subvert .container .logo {
+  margin-bottom: 20px;
+}
+
+.subvert .container h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subvert .container p {
+  color: #00ad6a;
+  font-weight: 700;
+}
+
+/* FAQ section */
+.faq {
+  margin: 100px 100px;
+}
+
+.faq h3 {
+  font-size: 3rem;
+  margin: 0 180px;
+}
+
+.faq .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 0 180px;
+}
+
+.faq .container .faq-grid .faq-desc {
+  margin-bottom: 50px;
+}
+
+.faq .container .faq-grid-two .faq-desc {
+  margin-bottom: 50px;
+}
+
+.faq .container .faq-grid .faq-desc h4 {
+  font-size: 1.5rem;
+}
+
+.faq .container .faq-grid .faq-desc p {
+  font-size: 1.3rem;
+  color: #595b5e;
+}
+
+.faq .container .faq-grid-two .faq-desc h4 {
+  font-size: 1.5rem;
+}
+
+.faq .container .faq-grid-two .faq-desc p {
+  font-size: 1.2rem;
+  color: #595b5e;
+}
+
+.faq .container .faq-grid-two .faq-desc:nth-child(3) {
+  margin-top: 160px;
+}
+
+/* footer section */
+.footer .container {
+  background: #080c16;
+  padding: 100px 100px 0 100px;
+}
+
+.footer .container .footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+
+  margin: 0 200px;
+}
+
+.footer .container .footer-grid div img {
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+.footer .container .footer-grid div button {
+  background: linear-gradient(to right, #00ad6a, #1fe374);
+  color: black;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 20px;
+}
+
+.footer .container .footer-grid div button:hover {
+  transform: translate(5%, -5%);
+  box-shadow: -5px 5px #a2a4a8;
+}
+
+.footer .container .footer-grid div h4 {
+  color: #fcfcfc;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.footer .container .footer-grid div ul li {
+  color: #1fe374;
+  font-size: 1.3rem;
+  line-height: 2.5;
+}
+
+.footer .container p {
+  color: #d6dae5;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.footer .container p span {
+  text-decoration: underline;
+}
